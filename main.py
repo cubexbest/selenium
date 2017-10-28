@@ -32,7 +32,7 @@ def start():
     th = driver.find_element_by_id('th').text
     ah = driver.find_element_by_id('ah').text
     driver.close()
-    #send_finish(th, ah)
+    #send_finish(th, ah)###
     print('FINISH!!!')
 
 if __name__ == '__main__':
